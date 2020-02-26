@@ -3,15 +3,13 @@ function arrayAnalyze(arr) {
     average: arrAverage(arr),
     min: arrMin(arr),
     max: arrMax(arr),
-    length: arrLength(arr)
+    length: arrLength(arr),
   };
   return object;
-};
+}
 
 function arrAverage(arr) {
-  const sum = arr.reduce((total, item) => {
-    return total + item;
-  }, 0);
+  const sum = arr.reduce((total, item) => total + item, 0);
   const average = sum / arr.length;
   return average;
 }
