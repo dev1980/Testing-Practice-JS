@@ -15,13 +15,11 @@ function arrAverage(arr) {
 }
 
 function arrMin(arr) {
-  const min = Math.min(...arr);
-  return min;
+  return Math.min(...arr);
 }
 
 function arrMax(arr) {
-  const max = Math.max(...arr);
-  return max;
+  return Math.max(...arr);
 }
 
 function arrLength(arr) {
